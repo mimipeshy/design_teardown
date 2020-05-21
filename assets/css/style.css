@@ -123,8 +123,9 @@ font-size: 1.875em;
 }
 
 .item {
-    padding: 23vh;
+    padding: 23vh 23vh 10vh 23vh;
     font-size: 48px;
+    color: #fff;
 }
 .lightGray {
     background-color: #767676;
