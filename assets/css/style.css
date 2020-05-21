@@ -127,6 +127,12 @@ font-size: 1.875em;
     font-size: 30px;
     color: #fff;
 }
+
+.itemArt{
+    padding: 30vh 23vh;
+    font-size: 30px;
+    height: 25vh;
+}
 .lightGray {
     background-color: #767676;
 }
@@ -135,12 +141,32 @@ font-size: 1.875em;
     background-color: #9d9d9d;
 }
 
+.redBackground {
+    background-color: #d33a2c;
+}
 .article-section{
-    grid-template-columns: repeat(3, 4fr) auto;
+    grid-template-columns: repeat(4, 4fr) auto;
     margin-top:70px;
     padding-left:30px;
-    gap:30px;
+}
+.article-section2{
+    grid-template-columns: repeat(2, 1fr) auto;
+    margin-top:70px;
+    padding: 25px;
+}
 
+.article1{
+    background-color: #d33a2c;
+    border-radius: 3%;
+    margin:0 30px;
+}
+
+.article2 {
+    background-color: teal;
+}
+
+.gap {
+    gap:20px;
 }
 .date-posted p{
     font-size: 0.9em;
@@ -164,5 +190,5 @@ font-size: 1.875em;
 .article-text {
     font-weight: 600;
     font-size: 1.1em;
-
 }
+
