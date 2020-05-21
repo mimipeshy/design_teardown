@@ -171,6 +171,14 @@ font-size: 1.875em;
     background-color: teal;
 }
 
+.article3 {
+    padding: 8vh;
+}
+
+.article4 {
+    padding: 40vh;
+}
+
 .gap {
     gap:20px;
 }
@@ -203,4 +211,14 @@ font-size: 1.875em;
     /* position: relative; */
     /* background-color: #f6f6f6; */
     margin-bottom: calc(.5em + 1vw);
+}
+
+.author .michelleImg{
+    margin: 0 30px 20px 0;
+    width: 230px;
+    height: 230px;
+    border: 5px solid #fff;
+    border-radius: 11px;
+    background: var(--gray02);
+    transform: translate(5%, 5%) rotateZ(calc(-1 * (11 * 1deg)));
 }
