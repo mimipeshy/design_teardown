@@ -150,11 +150,17 @@ font-size: 1.875em;
     padding-left:30px;
 }
 .article-section2{
-    grid-template-columns: repeat(2, 1fr) auto;
+    grid-template-columns: 700px 1fr 1fr;
     margin-top:70px;
-    padding: 25px;
+    padding: 5px;
+    background-color: #f6f6f6;
+    
 }
-
+.article-section3{
+    grid-template-columns: 2fr 2fr 700px;
+    padding: 25px;
+    background-color: #f6f6f6;
+}
 .article1{
     background-color: #d33a2c;
     border-radius: 3%;
@@ -181,6 +187,7 @@ font-size: 1.875em;
      font-size: 1.5em;
     margin: 0 0 1em;
     line-height: 1.2em;
+    text-transform: capitalize;
 }
 .article-author span{
     font-weight: 600;
@@ -191,4 +198,9 @@ font-size: 1.875em;
     font-weight: 600;
     font-size: 1.1em;
 }
-
+.aside-articles{
+    /* margin-top: 20px; */
+    /* position: relative; */
+    /* background-color: #f6f6f6; */
+    margin-bottom: calc(.5em + 1vw);
+}
