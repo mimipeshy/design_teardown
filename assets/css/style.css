@@ -124,7 +124,7 @@ font-size: 1.875em;
 
 .item {
     padding: 23vh 23vh 10vh 23vh;
-    font-size: 48px;
+    font-size: 30px;
     color: #fff;
 }
 .lightGray {
@@ -133,4 +133,36 @@ font-size: 1.875em;
 
 .darkGray {
     background-color: #9d9d9d;
+}
+
+.article-section{
+    grid-template-columns: repeat(3, 4fr) auto;
+    margin-top:70px;
+    padding-left:30px;
+    gap:30px;
+
+}
+.date-posted p{
+    font-size: 0.9em;
+    font-family: Elena;
+    text-transform: capitalize;
+    color: #666;
+    margin-bottom: .5em;
+}
+
+.article-title h3{
+    font-weight: 700;
+     font-size: 1.5em;
+    margin: 0 0 1em;
+    line-height: 1.2em;
+}
+.article-author span{
+    font-weight: 600;
+    color: #666;
+    font-size: 0.8em;
+}
+.article-text {
+    font-weight: 600;
+    font-size: 1.1em;
+
 }
