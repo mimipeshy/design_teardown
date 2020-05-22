@@ -17,7 +17,9 @@ a {
 .space-between{
     justify-content: space-between;
 }
-
+.flex-wrap{
+    flex-wrap: nowrap;
+}
 .justify-center {
     justify-content: center;
 }
@@ -26,6 +28,9 @@ a {
 }
 .grid{
     display: grid;
+}
+.flex-column{
+    flex-direction: column;
 }
 .header-section{
     background-color: #808080;
@@ -105,7 +110,7 @@ font-size: 1.875em;
     color: #fff;
 }
 
-.author span {
+.author span{
     font-family: Elena;
     font-size: 17px;
     font-style: italic;
@@ -116,13 +121,14 @@ font-size: 1.875em;
     margin: 0 30px 20px 0;
     width: 75px;
     height: 75px;
+    display: block;
     border: 5px solid #fff;
     border-radius: 11px;
     background: var(--gray02);
     transform: translate(5%, 5%) rotateZ(calc(-1 * (11 * 1deg)));
 }
 
-.item {
+.item{
     padding: 23vh 23vh 10vh 23vh;
     font-size: 30px;
     color: #fff;
@@ -207,9 +213,6 @@ font-size: 1.875em;
     font-size: 1.1em;
 }
 .aside-articles{
-    /* margin-top: 20px; */
-    /* position: relative; */
-    /* background-color: #f6f6f6; */
     margin-bottom: calc(.5em + 1vw);
 }
 
@@ -221,4 +224,20 @@ font-size: 1.875em;
     border-radius: 11px;
     background: var(--gray02);
     transform: translate(5%, 5%) rotateZ(calc(-1 * (11 * 1deg)));
+}
+
+.community-links{
+    padding:20px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 200px 200px 200px; 
+    gap:20px;
+     background-color: #f6f6f6;
+}
+.author-image img{
+    height: 24px;
+    width: 24px;
+    margin: 20px;
+}
+.author div{
+    border: 2px solid gray;
 }
