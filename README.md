@@ -2,7 +2,7 @@
 
 The goal is to building a heatmap of the Smashing magazine website.
 
-![screenshot]()
+![screenshot](./app_screenshot.png)
 
 
 ## Built With
@@ -11,7 +11,7 @@ The goal is to building a heatmap of the Smashing magazine website.
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://mimipeshy.github.io/design_teardown/)
 
 
 ## Getting Started

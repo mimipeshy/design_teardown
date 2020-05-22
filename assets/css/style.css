@@ -116,7 +116,7 @@ a {
   border-radius: 9px;
 }
 
-.search input[type=text] {
+.main-nav input[type=text] {
   float: right;
   padding: 6px;
   margin-top: 8px;
