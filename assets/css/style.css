@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: initial;
-    list-style: none;
 }
 
 body {
@@ -39,7 +38,7 @@ a {
 }
 
 .flex-column {
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .header-section {
@@ -50,10 +49,9 @@ a {
 .main-nav {
     font-size: 1.6rem;
     font-weight: 400;
-    width: 100px;
     height: 100px;
     grid-template-columns: repeat(8, 1fr);
-    gap: 50px;
+    gap: 40px;
 }
 
 .main-nav a {
@@ -70,7 +68,7 @@ a {
     height: 4rem;
     background-color: #9d9d9d;
     border: none;
-    color: #fff;
+    /* color: #fff; */
     font-family: 'Baloo Paaji 2', cursive, Georgia, 'Times New Roman', Times, serif;
     font-size: 1.4rem;
     font-weight: 400;
@@ -88,7 +86,7 @@ a {
 .nav-links button:hover {
     background-color: #767676;
     padding: 5px 5px;
-    border-radius: 12px;
+    border-radius: 9px;
 }
 
 .search input[type=text] {
@@ -109,7 +107,7 @@ a {
     margin-top: 30px;
     left: 50%;
     transform: translateX(-50%);
-    background-color: #fff;
+    /* background-color: #fff; */
     padding: .3em .4em;
     line-height: 1.5em;
     box-sizing: border-box;
@@ -122,7 +120,7 @@ a {
     margin-top: 80px;
     left: 50%;
     transform: translateX(-50%);
-    background-color: #fff;
+    /* background-color: #fff; */
     padding: .3em .4em;
     line-height: 1.5em;
     box-sizing: border-box;
@@ -160,7 +158,7 @@ a {
 .item {
     padding: 23vh 23vh 10vh 23vh;
     font-size: 30px;
-    color: #fff;
+    /* color: #fff; */
 }
 
 .itemArt {
@@ -177,13 +175,16 @@ a {
     background-color: #9d9d9d;
 }
 
+.white{
+    color: #fff;
+}
 .redBackground {
     background-color: #d33a2c;
 }
 
 .article-section {
     grid-template-columns: repeat(4, 4fr) auto;
-    margin-top: 70px;
+    margin-top: 40px;
     padding-left: 30px;
 }
 
@@ -191,24 +192,17 @@ a {
     grid-template-columns: 700px 1fr 1fr;
     margin-top: 70px;
     padding: 5px;
-    background-color: #f6f6f6;
-
 }
 
 .article-section3 {
     grid-template-columns: 2fr 2fr 700px;
     padding: 25px;
-    background-color: #f6f6f6;
 }
 
 .article1 {
     background-color: #d33a2c;
     border-radius: 3%;
     margin: 0 30px;
-}
-
-.article2 {
-    background-color: teal;
 }
 
 .article3 {
@@ -227,7 +221,7 @@ a {
     font-size: 0.9em;
     font-family: Elena;
     text-transform: capitalize;
-    color: #666;
+    color: #fff;
     margin-bottom: .5em;
 }
 
@@ -241,7 +235,7 @@ a {
 
 .article-author span {
     font-weight: 600;
-    color: #666;
+    color: #fff;
     font-size: 0.8em;
 }
 
@@ -268,7 +262,6 @@ a {
     padding: 20px;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 200px 200px 200px;
-    gap: 20px;
     background-color: #f6f6f6;
 }
 
@@ -292,4 +285,12 @@ a {
 
 .trumpetImg{
     width:80vh;
+
+}
+.footer{
+    height: 50vh;
+}
+.footer li{
+    display: inline;
+  margin: 20px;
 }
