@@ -1,6 +1,6 @@
 # Design Teardown
 
-The goal is to building a heatmap of the Smashing magazine website.
+The goal is to building a heatmap of the Smashing magazine website. 
 
 ![screenshot](./app_screenshot.png)
 
