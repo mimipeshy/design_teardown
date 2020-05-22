@@ -99,6 +99,18 @@ line-height: 1.5em;
 box-sizing: border-box;
 font-size: 1.875em;
 }
+.dontMiss2 { 
+    text-align: center;
+    position: absolute;
+    margin-top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    padding: .3em .4em;
+    line-height: 1.5em;
+    box-sizing: border-box;
+    font-size: 1.875em;
+    }
 
 .container {
     grid-template-columns: repeat(2, 4fr);
