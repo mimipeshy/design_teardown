@@ -2,7 +2,7 @@
 
 The goal is to building a heatmap of the Smashing magazine website. 
 
-![screenshot](./app_screenshot.png)
+![screenshot](./app_screenshot.PNG)
 
 
 ## Built With
