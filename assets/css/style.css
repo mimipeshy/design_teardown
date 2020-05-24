@@ -54,7 +54,6 @@ a {
   margin: 0 20px;
 }
 
-
 .header-section {
   background-color: #808080;
   height: 20vh;
@@ -94,11 +93,10 @@ a {
   display: flex;
   justify-content: space-around;
   padding: 30px;
-
 }
 
 li a {
-  color: #333333;
+  color: #333;
 }
 
 .main-nav li:nth-child(7) {
