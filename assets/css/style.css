@@ -22,6 +22,10 @@ a {
   justify-content: space-between;
 }
 
+.space-around {
+  justify-content: space-around;
+}
+
 .flex-wrap {
   flex-wrap: nowrap;
 }
@@ -41,6 +45,15 @@ a {
 .flex-column {
   flex-direction: row;
 }
+
+.border {
+  border-radius: 25px;
+}
+
+.margin {
+  margin: 0 20px;
+}
+
 
 .header-section {
   background-color: #808080;
@@ -144,6 +157,7 @@ li a {
   line-height: 1.5em;
   box-sizing: border-box;
   font-size: 1.875em;
+  background-color: white;
 }
 
 .dontMissArticles {
@@ -156,6 +170,7 @@ li a {
   line-height: 1.5em;
   box-sizing: border-box;
   font-size: 1.875em;
+  background-color: white;
 }
 
 .container {
@@ -185,10 +200,6 @@ li a {
 
 .darkGray {
   background-color: #9d9d9d;
-}
-
-.white {
-  color: #fff;
 }
 
 .redBackground {
@@ -281,6 +292,10 @@ li a {
 
 .padding {
   padding: 80px;
+}
+
+.padding1 {
+  padding: 50px;
 }
 
 .strongGray {
