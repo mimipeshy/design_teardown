@@ -77,9 +77,15 @@ a {
   width: auto;
 }
 
-.footer li {
-  display: inline;
-  margin: 20px;
+.footer ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+
+}
+
+.footer li a {
+  color: #333333;
 }
 
 .main-nav li:nth-child(7) {
