@@ -11,7 +11,7 @@ The goal is to building a heatmap of the Smashing magazine website.
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/mimipeshy/design_teardown/9b418eed0333c673a3d93435918f11c9d4950829/index.html)
+[Live Demo Link](https://mimipeshy.github.io/design_teardown/)
 
 
 ## Getting Started
