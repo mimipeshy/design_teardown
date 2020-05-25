@@ -205,7 +205,7 @@ a {
 }
 
 .article-section {
-  grid-template-columns: repeat(3, 370px) auto;
+  grid-template-columns: repeat(3, 1fr) auto;
 }
 
 .article-one {
@@ -223,12 +223,12 @@ a {
 }
 
 .article-section2 {
-  grid-template-columns: 700px 1fr 1fr;
+  grid-template-columns: 2fr 1fr 1fr;
   padding: 5px;
 }
 
 .article-section3 {
-  grid-template-columns: 2fr 2fr 700px;
+  grid-template-columns: 1fr 1fr 2fr;
   padding: 25px;
 }
 
