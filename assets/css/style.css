@@ -50,9 +50,10 @@ a {
 .main-nav {
   font-size: 1.6rem;
   font-weight: 400;
+  width: 100%;
   height: 100px;
   grid-template-columns: repeat(8, 1fr);
-  gap: 40px;
+  gap: 25px;
   list-style: none;
 }
 
@@ -120,11 +121,13 @@ a {
   line-height: 2;
 }
 
-.main-nav a:hover,
-.nav-links:hover,
+.nav-links a {
+  padding: 10px;
+}
+
+.nav-links a:hover,
 .nav-links button:hover {
   background-color: #767676;
-  padding: 6px 6px;
   border-radius: 9px;
 }
 
