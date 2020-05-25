@@ -28,7 +28,7 @@ Type `git init` in your local terminal
 
 ### Install
 
-Clone the repository to your local machine `git clonehttps://github.com/mimipeshy/design_teardown.git ` 
+Clone the repository to your local machine `git clone https://github.com/mimipeshy/design_teardown.git ` 
 
 ### Usage
 
