@@ -72,6 +72,10 @@ a {
   margin: 20px;
 }
 
+.article5 img {
+  height: 30rem;
+}
+
 .main-nav .logo img {
   height: 4rem;
   width: auto;
@@ -244,10 +248,6 @@ a {
 
 .article5 {
   height: 70vh;
-}
-
-.article5 img {
-  height: 30rem;
 }
 
 .gap {
